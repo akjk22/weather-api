@@ -8,7 +8,7 @@ $(document).ready(function() {
 
     let promise = new Promise(function(resolve, reject) {
       let request = new XMLHttpRequest();
-      let url = `http://api.openweathermap.org/data/2.5/weather?q=${city}&appid=[d43df70f2a4de3ad6bd547ffebf41550]`;
+      let url = `http://api.openweathermap.org/data/2.5/weather?q=${city}&appid=[6bea1d018bc1bf6828cddfea7aa22000]`;
       request.onload = function() {
         if (this.status === 200) {
           resolve(request.response);
